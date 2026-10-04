@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens. A warm paper ground, near-black ink, one hot accent. Kept
+ * small on purpose so every surface pulls from the same six values.
+ */
+@theme {
+  --color-paper: #f4f1ea;
+  --color-ink: #14120f;
+  --color-slate: #5c564c;
+  --color-line: #ded7c9;
+  --color-accent: #e2531f;
+  --color-accent-ink: #fff6f1;
+  --font-display: "Georgia", "Times New Roman", serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
