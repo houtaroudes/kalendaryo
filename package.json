@@ -13,17 +13,17 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@supabase/supabase-js": "^2.117.2",
+    "@supabase/supabase-js": "^2.118.0",
     "clsx": "^2.1.1",
-    "motion": "^14.0.0",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
+    "motion": "^14.5.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",
-    "@vitejs/plugin-react": "^6.1.1",
-    "oxlint": "^1.86.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.89.0",
     "tailwindcss": "^4.3.3",
     "vite": "^8.3.2"
   }
